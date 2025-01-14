@@ -1,0 +1,69 @@
+body{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(226, 32%, 95%);
+  background-image: linear-gradient(to right bottom, #7f7f7f, #979797, #afafaf, #c8c8c8, #e2e2e2);
+}
+button{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: none;
+  background-color: hsl(226, 32%, 27%);
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+#keys{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 25px;
+}
+
+#calculator{
+  font-family: Arial, sans-serif;
+  background-color: hsl(226, 16%, 13%);
+  border-radius: 15px;
+  max-width: 500px;
+  overflow: hidden;
+}
+
+#display{
+  width: 100%;
+  padding: 20px;
+  font-size: 5rem;
+  text-align: left;
+  border: none;
+  color: white;
+  background-color:  hsl(226, 0%, 20%);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+button:hover{
+  background-color: hsl(226, 32%, 40%);
+}
+
+button:active{
+  background-color: hsl(226, 32%, 50%);
+}
+
+.operator-btn{
+  background-color: hsl(35, 100%, 55%);
+  font-size: 2rem;
+}
+
+.operator-btn:hover{
+  background-color: hsl(35, 100%, 65%);
+}
+
+.operator-btn:active{
+  background-color: hsl(35, 100%, 75%);
+}
+
